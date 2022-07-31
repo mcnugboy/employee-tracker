@@ -1,7 +1,5 @@
-// const connection = require('./config/connection');
 import connection from './config/connection.js';
 import inquirer from 'inquirer';
-// const { restoreDefaultPrompts } = require('inquirer');
 
 connection.connect(function(err) {
     if (err) throw err;
